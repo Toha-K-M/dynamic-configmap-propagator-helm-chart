@@ -1,0 +1,6 @@
+replicaCount: 1
+
+image:
+  repository: tohakm620/controller-dynamicconfigmap-propagator
+  pullPolicy: IfNotPresent
+  tag: "latest"

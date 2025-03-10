@@ -1,0 +1,14 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  labels:
+    app.kubernetes.io/name: clusterrolebinding
+  name: {{ include "dynamic-configmap-propagator.clusterolebinding.name" . }}
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: {{ include "dynamic-configmap-propagator.clusterole.name" . }}
+subjects:
+  - kind: ServiceAccount
+    name: {{ include "dynamic-configmap-propagator.serviceaccount.name" . }}
+    namespace: {{ .Release.Namespace }}

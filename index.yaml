@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  dynamic-configmap-propagator:
+    - apiVersion: v2
+      appVersion: 0.1.0
+      created: "2025-03-11T02:04:17.143432213+06:00"
+      description: A Helm chart for Dynamic Configmap Propagator
+      digest: 35b9b98a6dc9c8825ace5be1df3ab6282c82fb2362b4cde80a244138e2847992
+      name: dynamic-configmap-propagator
+      type: application
+      urls:
+        - dynamic-configmap-propagator-0.1.0.tgz
+      version: 0.1.0
+generated: "2025-03-11T02:04:17.142457862+06:00"
