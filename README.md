@@ -1,9 +1,9 @@
 ## Installing the Chart
 
-To adding the chart repository with the name `krack8`:
+To adding the chart repository with the name `dcp`:
 
 ```
-helm repo add dcp https://tohakhan.github.io/dynamic-configmap-propagator-helm-chart
+helm repo add dcp https://toha-k-m.github.io/dynamic-configmap-propagator-helm-chart
 ```
 
 ## Installing Chart Release
