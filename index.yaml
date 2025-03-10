@@ -9,6 +9,6 @@ entries:
       name: dynamic-configmap-propagator
       type: application
       urls:
-        - dynamic-configmap-propagator-0.1.0.tgz
+        - https://toha-k-m.github.io/dynamic-configmap-propagator-helm-chart/packages/dynamic-configmap-propagator-0.1.0.tgz
       version: 0.1.0
 generated: "2025-03-11T02:04:17.142457862+06:00"
