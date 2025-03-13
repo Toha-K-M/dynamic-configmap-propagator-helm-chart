@@ -8,5 +8,5 @@ helm repo add dcp https://toha-k-m.github.io/dynamic-configmap-propagator-helm-c
 
 ## Installing Chart Release
 ```
-helm install my-release dcp/dynamic-configmap-propagator --create-namespace
+helm install my-release dcp/dynamic-configmap-propagator --create-namespace -n namespacename
 ```
