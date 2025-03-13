@@ -1,5 +1,7 @@
 replicaCount: 1
 
+nameOverride: ""
+
 image:
   repository: tohakm620/controller-dynamicconfigmap-propagator
   pullPolicy: IfNotPresent

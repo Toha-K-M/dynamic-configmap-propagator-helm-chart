@@ -1,6 +1,6 @@
 
 {{- define "dynamic-configmap-propagator.name" -}}
-{{- default .Chart.Name .Values.nameOverride | trunc 63 | trimSuffix "-" }}
+{{- default .Release.Name .Values.nameOverride | trunc 63 | trimSuffix "-" }}
 {{- end }}
 
 {{- define "dynamic-configmap-propagator.serviceaccount.name" -}}
